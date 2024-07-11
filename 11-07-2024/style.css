@@ -1,0 +1,515 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  margin-top: -50px;
+}
+.img-fluid {
+  width: 600.46px;
+  height: 515px;
+  border: 1px;
+  padding: 30px;
+}
+
+.left-header-text h1 {
+  font-family: "Space Grotesk";
+  font-size: 60px;
+  line-height: 76.56px;
+  text-align: left;
+
+}
+
+.left-header-text p {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 35px;
+  margin-top: 35px;
+
+}
+
+.wrapper-nav {
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.wrapper-nav li {
+  list-style: none;
+  margin-top: 22px;
+}
+
+.wrapper-nav li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+  text-align: left;
+  align-items: center;
+
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 14px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  display: flex;
+  padding: 20px 35px;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  width: 219.537px;
+  height: 36px;
+  gap: 12.92px;
+  margin-top: 10px;
+}
+
+nav {
+  padding: 40px;
+  margin-bottom: 70px;
+}
+
+.logo-types {
+  margin-top: 70px;
+  margin-bottom: 115px;
+}
+
+.subheading {
+  margin-bottom: 115px;
+}
+
+.heading {
+  text-align: center;
+  border: none;
+}
+
+.heading h2 {
+  background-color: #B9FF66;
+  font-family: "Space Grotesk";
+  font-size: 45px;
+  font-weight: 58px;
+  line-height: 51.04px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.subhead {
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 22.97px;
+  text-align: left;
+}
+
+.logo-types{
+  width: 100%;
+  display: flex;
+}
+
+.gambar {
+  width: 100%;
+  height: 48px;
+  gap: 96px;
+}
+.gambar2 {
+  width: 500.11px;
+  height: 48px;
+  gap: 96px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  padding-inline: 100px;
+  justify-content: space-between;
+  margin-top: 115px;
+
+}
+
+.carselection1 {
+  width: 630px;
+  height: 320px;
+  padding: 45px;
+  margin-bottom: -60px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid rgba(25, 26, 35, 1);
+  background: rgba(243, 243, 243, 1);
+  box-shadow: 0px 5px 0px 0px #191A23;
+  margin-right: -60px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carselection1 h3{
+  display: flex;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(185, 255, 102, 1);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.carselection1 p {
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.learn-more1 {
+
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.fotocard1 {
+  margin: 20px -5px 0px 0px;
+  float: right;
+  Width: 200px;
+  Top: 2px;
+  Height: 150px;
+
+}
+
+.carselection2 {
+  width: 630px;
+  height: 320px;
+  padding: 50px;
+  margin-bottom: -60px;
+  margin-left: 40px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid rgba(25, 26, 35, 1);
+  background: rgba(185, 255, 102, 1);
+  box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carselection2 h3{
+  display: flex;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.learn-more2 {
+  margin: 93px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.fotocard2 {
+  margin: 20px -5px 0px 0px;
+  float: right;
+  Width: 200px;
+  Top: 2px;
+  Height: 150px;
+}
+
+.carselection2 p {
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px 0px 0px 15px;
+  display: inline-flex;
+
+}
+.carselection3 {
+  width: 630px;
+  height: 320px;
+  padding: 45px;
+  margin-bottom: -60px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid rgba(25, 26, 35, 1);
+  background: rgba(25, 26, 35, 1);
+  box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carselection3 h3 {
+  display: flex;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.carselection3 p {
+  color: rgba(243, 243, 243, 1);
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px 0px 0px 0px;
+  padding-left: 20px;
+}
+
+.learn-more3 {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.fotocard3 {
+  margin: 20px -5px 0px 0px;
+  float: right;
+  Width: 200px;
+  Top: 2px;
+  Height: 150px;
+
+}
+.carselection4 {
+  width: 630px;
+  height: 320px;
+  padding: 50px;
+  margin-bottom: -60px;
+  margin-left: 40px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid rgba(25, 26, 35, 1);
+  background: rgba(243, 243, 243, 1);
+  box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.content4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carselection4 h3 {
+  display: flex;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(185, 255, 102, 1);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.learn-more4 {
+  margin: 93px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.fotocard4 {
+  margin: 20px -5px 0px 0px;
+  float: right;
+  Width: 200px;
+  Top: 2px;
+  Height: 150px;
+}
+
+.carselection4 p {
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px 0px 0px 15px;
+  display: inline-flex;
+}
+
+.carselection5 {
+  width: 630px;
+  height: 320px;
+  padding: 45px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid rgba(25, 26, 35, 1);
+  background: rgba(185, 255, 102, 1);
+  box-shadow: 0px 5px 0px 0px #191A23;
+  margin-right: -60px;
+}
+
+.content5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carselection5 h3 {
+  display: flex;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.carselection5 p {
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.learn-more5 {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.fotocard5 {
+  margin: 20px -5px 0px 0px;
+  float: right;
+  Width: 200px;
+  Top: 2px;
+  Height: 150px;
+}
+
+.carselection6 {
+  width: 630px;
+  height: 320px;
+  padding: 50px;
+  margin-bottom: -60px;
+  margin-left: 40px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid rgba(25, 26, 35, 1);
+  background: rgba(25, 26, 35, 1);
+  box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.content6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carselection6 h3 {
+  display: flex;
+  color: black;
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(185, 255, 102, 1);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.learn-more6 {
+  margin: 93px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.fotocard6 {
+  margin: 20px -5px 0px 0px;
+  float: right;
+  Width: 200px;
+  Top: 2px;
+  Height: 150px;
+}
+
+.carselection6 p {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px 0px 0px 15px;
+  display: inline-flex;
+}
+.isi{
+  margin-bottom: 60px;
+}
